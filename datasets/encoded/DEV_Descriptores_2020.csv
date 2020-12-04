@@ -1,0 +1,318 @@
+﻿Num,Variable,Etiqueta,Tipo,Tamaño
+1,folio,Folio,Numérico,10
+2,trim,Trimestre de aplicación,Numérico,5
+3,unidad,Unidad (día-año-mes),Numérico,10
+4,region,Región de muestreo,Numérico,5
+5,ciudad,Ciudad de muestreo,Numérico,5
+6,punto,Punto de muestreo,Numérico,5
+7,turno,Turno,Numérico,5
+8,a1,Sexo,Numérico,2
+9,a2,¿Cuántos años cumplidos tiene usted?,Numérico,2
+10,a3,¿Usted aprobó o cursó algún año en la escuela?,Numérico,2
+11,a3_1,"¿El último año que aprobó fue en México, en Estados Unidos o en otro país?",Numérico,2
+12,a3_1_1a,¿Cuál fue el último año de escuela que usted aprobó? Año,Numérico,2
+13,a3_1_1n,¿Cuál fue el último año de escuela que usted aprobó? Nivel,Numérico,2
+14,a3_1_2a,¿Cuál fue el último año de escuela que usted aprobó? Año,Numérico,2
+15,a3_1_2n,¿Cuál fue el último año de escuela que usted aprobó? Nivel,Numérico,2
+16,a4,¿Sabe usted leer y escribir un recado?,Numérico,2
+17,a4_1,"¿Sabe escribir en español, inglés o en ambos idiomas?",Numérico,2
+18,a5,¿Habla usted alguna lengua indígena?,Numérico,2
+19,a5_1,"De acuerdo con su historia, cultura y tradición, ¿pertenece usted a un pueblo o comunidad indígena?",Numérico,2
+20,a6,¿Qué tan bien habla el inglés?,Numérico,2
+21,a7,"De acuerdo con su cultura, historia y tradiciones, ¿se considera negra(o), es decir, afrodescendiente o afromexicano?",Numérico,2
+22,a8,(Situación Conyugal) ¿Actualmente usted...,Numérico,2
+23,a9,"Incluyéndose usted, ¿cuántas personas en total viven en su hogar?",Numérico,2
+24,a9_1_1,"De esas personas, ¿cuántas tienen de: 0 a 14 años?",Numérico,2
+25,a9_1_2,"De esas personas, ¿cuántas tienen de: 15 a 64 años?",Numérico,2
+26,a9_1_3,"De esas personas, ¿cuántas tienen de: 65 años o más?",Numérico,2
+27,a9_2,"Incluyéndose usted, ¿cuántas personas trabajan y aportan dinero para el gasto de su hogar?",Numérico,2
+28,a9_3,¿Es usted el principal sostén económico de su hogar?,Numérico,2
+29,a10,"En su casa, ¿es usted el jefe o la jefa del hogar?",Numérico,2
+30,a10_1,"Entonces, me puede decir, ¿quién es el jefe o la jefa de su hogar?",Numérico,2
+31,a11_1,¿En qué país vive su(sus): esposa(o) o pareja?,Numérico,2
+32,a11_1_1,"Antes de ser devuelto(a), ¿vivía(n) con usted su: esposa(o) o pareja?",Numérico,2
+33,a11_2,¿En qué país vive su(sus): hijos(as) menores de 18 años?,Numérico,2
+34,a11_2_1,"Antes de ser devuelto(a), ¿vivía(n) con usted su: hijos(as) menores de 18 años?",Numérico,2
+35,a11_3,¿En qué país vive su(sus): hijos(as) de 18 años y más?,Numérico,2
+36,a11_3_1,"Antes de ser devuelto(a), ¿vivía(n) con usted su: hijos(as) de 18 años y más?",Numérico,2
+37,a11_4,¿En qué país vive su(sus): padre y/o madre?,Numérico,2
+38,a11_4_1,"Antes de ser devuelto(a), ¿vivía(n) con usted su: padre y/o madre?",Numérico,2
+39,a11_5,¿En qué país vive su(sus): hermanos(as)?,Numérico,2
+40,a11_5_1,"Antes de ser devuelto(a), ¿vivía(n) con usted su: hermanos(as)?",Numérico,2
+41,a11_6,¿En qué país vive su(sus): otros familiares?,Numérico,2
+42,a11_6_1,"Antes de ser devuelto(a), ¿vivía(n) con usted su: otros familiares?",Numérico,2
+43,a12p,"¿En qué país, estado, municipio y localidad, nació usted? País",Numérico,2
+44,a12e,"¿En qué país, estado, municipio y localidad, nació usted? Estado",Numérico,2
+45,a12m,"¿En qué país, estado, municipio y localidad, nació usted? Municipio",Numérico,5
+46,a12u,"¿En qué país, estado, municipio y localidad, nació usted? Urbano o no urbano",Numérico,2
+47,a13,¿El lugar donde vive es el mismo donde usted nació?,Numérico,2
+48,a14,¿En qué país vive usted? País,Numérico,2
+49,a14_1e,"¿En qué estado, municipio y localidad, vive usted? Estado",Numérico,2
+50,a14_1m,"¿En qué estado, municipio y localidad, vive usted? Municipio",Numérico,5
+51,a14_1u,"¿En qué estado, municipio y localidad, vive usted? Urbano o no urbano",Numérico,2
+52,a14_1u_b,"¿En qué estado, municipio y localidad, vive usted? Urbano o no urbano (Actualizado al año 2015)",Numérico,10
+53,a14_2es,¿En qué estado y condado vive usted? Estado,Numérico,2
+54,a14_2cn,¿En qué estado y condado vive usted? Condado,Numérico,5
+55,a15c,"En esta última estancia en Estados Unidos, ¿cuánto tiempo permaneció usted en ese país? Cantidad",Numérico,3
+56,a15t,"En esta última estancia en Estados Unidos, ¿cuánto tiempo permaneció usted en ese país? Tiempo",Numérico,2
+57,b1,"En toda su vida, ¿cuántas veces ha cruzado a Estados Unidos para trabajar, buscar trabajo o para reunirse con sus familiares?",Numérico,2
+58,b1_1,"De esas veces, ¿cuántas le detuvo la migra u otra autoridad estadounidense?",Numérico,2
+59,b1_2,¿En qué año entró a Estados Unidos por primera vez?,Numérico,4
+60,b2,¿En qué año entró a Estados Unidos por última vez?,Numérico,4
+61,b3,"En los últimos 12 meses, considerando esta ocasión, ¿cuántas veces fue devuelto(a) por la migra u otra autoridad estadounidense?",Numérico,2
+62,b4_1,¿Ha realizado algún trámite oficial con la finalidad de obtener documentos para: entrar a Estados Unidos?,Numérico,2
+63,b4_2,¿Ha realizado algún trámite oficial con la finalidad de obtener documentos para: trabajar en Estados Unidos?,Numérico,2
+64,b4_3,¿Ha realizado algún trámite oficial con la finalidad de obtener documentos para: quedarse a vivir allá?,Numérico,2
+65,b4_4,¿Ha realizado algún trámite oficial con la finalidad de obtener documentos para: otro?,Numérico,2
+66,b5,"En los últimos 12 meses, ¿usted ha solicitado refugio o condición de refugiado(a)?",Numérico,2
+67,b5_1_1,¿En qué país? OPCI”N 1,Numérico,2
+68,b5_1_2,¿En qué país? OPCI”N 2,Numérico,2
+69,b6,¿Tiene miedo de estar regresando a México?,Numérico,2
+70,b6_1,"Principalmente, ¿por qué tiene miedo?",Numérico,2
+71,b7_1,¿Trae con usted los siguientes documentos: Matrícula consular?,Numérico,2
+72,b7_2,¿Trae con usted los siguientes documentos: Credencial para votar con fotografía de México INE/(IFE)?,Numérico,2
+73,b7_3,¿Trae con usted los siguientes documentos: Licencia para manejar en Estados Unidos?,Numérico,2
+74,b7_4,¿Trae con usted los siguientes documentos: Acta de nacimiento mexicana?,Numérico,2
+75,b7_5,¿Trae con usted los siguientes documentos: Pasaporte mexicano?,Numérico,2
+76,b7_6,¿Trae con usted los siguientes documentos: CURP?,Numérico,2
+77,b8_1,"Durante su estancia en Estados Unidos, ¿alguna vez usted: fue agredido(a) físicamente (empujones, golpes, etc.)?",Numérico,2
+78,b8_2,"Durante su estancia en Estados Unidos, ¿alguna vez usted: recibió burlas, insultos o gritos?",Numérico,2
+79,b8_3,"Durante su estancia en Estados Unidos, ¿alguna vez usted: le detuvieron sin justificación?",Numérico,2
+80,b8_4,"Durante su estancia en Estados Unidos, ¿alguna vez usted: le prohibieron hablar español o le presionaron a hablar en inglés?",Numérico,2
+81,b8_5,"Durante su estancia en Estados Unidos, ¿alguna vez usted: le amenazaron con llamarle a las autoridades migratorias?",Numérico,2
+82,b8_6,"Durante su estancia en Estados Unidos, ¿alguna vez usted: le agredieron verbalmente para que se regrese a México?",Numérico,2
+83,b8_7,"Durante su estancia en Estados Unidos, ¿alguna vez usted: le negaron la entrada a un lugar público o le corrieron (restaurante, mall, etc)?",Numérico,2
+84,b8_8,"Durante su estancia en Estados Unidos, ¿alguna vez usted: sufrió otra forma de maltrato?",Numérico,2
+85,b8_1_1,¿En dónde? Plazas comerciales o tiendas,Numérico,2
+86,b8_1_2,¿En dónde? Fonda o restaurante,Numérico,2
+87,b8_1_3,¿En dónde? Transporte público,Numérico,2
+88,b8_1_4,"¿En dónde? Lugar de hospedaje (hotel, etc.)",Numérico,2
+89,b8_1_5,¿En dónde? Lavandería,Numérico,2
+90,b8_1_6,¿En dónde? Calle,Numérico,2
+91,b8_1_7,¿En dónde? Trabajo,Numérico,2
+92,b8_1_8,¿En dónde? Otro,Numérico,2
+93,c1,"En los últimos 3 meses antes del inicio de su viaje, por falta de dinero o recursos, ¿alguna vez usted se preocupó o angustió de que la comida se acabara en su hogar?",Numérico,2
+94,c2c,"En total, ¿cuánto dinero gastó usted o la persona que pagó su viaje desde que salió de su casa hasta internarse en Estados Unidos? Cantidad",Numérico,7
+95,c2u,"En total, ¿cuánto dinero gastó usted o la persona que pagó su viaje desde que salió de su casa hasta internarse en Estados Unidos? Unidad",Numérico,2
+96,c2_1,¿Le prestaron algo de ese dinero?,Numérico,2
+97,c3,"Esa última vez, ¿qué medio de transporte utilizó principalmente para llegar a la frontera?",Numérico,2
+98,c4,¿Por cuál ciudad mexicana cruzó usted?,Numérico,9
+99,c4_1,"Principalmente, ¿por qué eligió esa ciudad para cruzar?",Numérico,2
+100,c4_2,¿Esa fue la única ciudad fronteriza donde estuvo antes de cruzar?,Numérico,2
+101,c4_3,¿Tiene usted amistades o familiares en esa ciudad?,Numérico,2
+102,c4_3_1_1,¿Cuáles de las siguientes ayudas le proporcionaron: préstamo monetario?,Numérico,2
+103,c4_3_1_2,¿Cuáles de las siguientes ayudas le proporcionaron: alojamiento y/o alimentos?,Numérico,2
+104,c4_3_1_3,¿Cuáles de las siguientes ayudas le proporcionaron: ayuda para cruzar a Estados Unidos?,Numérico,2
+105,c4_3_1_4,¿Cuáles de las siguientes ayudas le proporcionaron: otra?,Numérico,2
+106,c4_4_1,"Durante su estancia en esa ciudad, ¿cuáles de los siguientes servicios utilizó: teléfono, telégrafo, correo, internet?",Numérico,2
+107,c4_4_2,"Durante su estancia en esa ciudad, ¿cuáles de los siguientes servicios utilizó: casa de cambio, banco?",Numérico,2
+108,c4_4_3,"Durante su estancia en esa ciudad, ¿cuáles de los siguientes servicios utilizó: restaurantes, fondas, cocinas económicas?",Numérico,2
+109,c4_4_4,"Durante su estancia en esa ciudad, ¿cuáles de los siguientes servicios utilizó: transporte urbano, alquiler de automóviles?",Numérico,2
+110,c4_4_5,"Durante su estancia en esa ciudad, ¿cuáles de los siguientes servicios utilizó: tiendas de autoservicio, farmacias, almacenes?",Numérico,2
+111,c4_4_6,"Durante su estancia en esa ciudad, ¿cuáles de los siguientes servicios utilizó: hotel, casa de huéspedes?",Numérico,2
+112,c4_4_7,"Durante su estancia en esa ciudad, ¿cuáles de los siguientes servicios utilizó: servicios médicos?",Numérico,2
+113,c4_4_8,"Durante su estancia en esa ciudad, ¿cuáles de los siguientes servicios utilizó: otro servicio?",Numérico,2
+114,c4_4_1c,¿Cuánto gastó en esos servicios que utilizó? Cantidad,Numérico,7
+115,c4_4_1u,¿Cuánto gastó en esos servicios que utilizó? Unidad,Numérico,2
+116,c4_5_1,"Durante su estancia en la ciudad por la que cruzó a Estados Unidos, ¿alguna vez usted: fue agredido(a) físicamente (empujones, golpes, etc.)?",Numérico,2
+117,c4_5_2,"Durante su estancia en la ciudad por la que cruzó a Estados Unidos, ¿alguna vez usted: recibió burlas, insultos o gritos?",Numérico,2
+118,c4_5_3,"Durante su estancia en la ciudad por la que cruzó a Estados Unidos, ¿alguna vez usted: le detuvieron sin justificación?",Numérico,2
+119,c4_5_4,"Durante su estancia en la ciudad por la que cruzó a Estados Unidos, ¿alguna vez usted: sufrió otra forma de maltrato?",Numérico,2
+120,c4_6c,¿Cuánto tiempo estuvo en la ciudad fronteriza por la que cruzó? Cantidad,Numérico,3
+121,c4_6t,¿Cuánto tiempo estuvo en la ciudad fronteriza por la que cruzó? Tiempo,Numérico,2
+122,c4_7,"Durante su permanencia en esa ciudad, ¿trabajó usted?",Numérico,2
+123,c4_8,¿En qué lugar de la ciudad fronteriza pasó la noche anterior a cruzar a Estados Unidos?,Numérico,2
+124,d1,"Principalmente, ¿por qué cruzó usted a Estados Unidos?",Numérico,2
+125,d2,"En este último viaje, ¿cuántas veces fue devuelto(a) por la migra u otra autoridad estadounidense?",Numérico,2
+126,d3,"Esta última vez, ¿cuántos intentos de cruce realizó antes de ser detenido(a) por la migra u otra autoridad estadounidense?",Numérico,2
+127,d4,"Esta última vez que entró a Estados Unidos, ¿cuántos familiares o conocidos cruzaron con usted la frontera?",Numérico,2
+128,d4_1,¿Cuántos(as) de ellos(as) eran menores de 18 años?,Numérico,2
+129,d4_1_1,¿Son sus hijos(as)?,Numérico,2
+130,d4_2,"¿Cuántas de las personas que le acompañaron eran sus padres, hermanos(as), hijos(as), esposa(o) o pareja?",Numérico,2
+131,d5_0_1,"Al cruzar a Estados Unidos, ¿alguna vez usted: tuvo frío o calor extremo?",Numérico,2
+132,d5_0_2,"Al cruzar a Estados Unidos, ¿alguna vez usted: le faltaron alimentos o agua?",Numérico,2
+133,d5_0_3,"Al cruzar a Estados Unidos, ¿alguna vez usted: tuvo mareos o desmayos?",Numérico,2
+134,d5_0_4,"Al cruzar a Estados Unidos, ¿alguna vez usted: casi  se ahogó en un río o canal?",Numérico,2
+135,d5_0_5,"Al cruzar a Estados Unidos, ¿alguna vez usted: se cayó o lastimó (en una pendiente, cerro, barda, etc.)?",Numérico,2
+136,d5_0_6,"Al cruzar a Estados Unidos, ¿alguna vez usted: se perdió en el camino?",Numérico,2
+137,d5_0_7,"Al cruzar a Estados Unidos, ¿alguna vez usted: fue atacado o picado por animales salvajes?",Numérico,2
+138,d5_0_8,"Al cruzar a Estados Unidos, ¿alguna vez usted: le abandonó del pollero?",Numérico,2
+139,d5_0_9,"Al cruzar a Estados Unidos, ¿alguna vez usted: le asaltaron o robaron?",Numérico,2
+140,d5_0_10,"Al cruzar a Estados Unidos, ¿alguna vez usted: le extorsionaron (cobro de cuota o secuestro)?",Numérico,2
+141,d5_0_11,"Al cruzar a Estados Unidos, ¿alguna vez usted: tuvo otro problema?",Numérico,2
+142,d5_1_1,Quién le: asaltó o robó?,Numérico,2
+143,d5_1_1_1,¿Denunció el delito?,Numérico,2
+144,d5_1_2,Quién le: extorsionó (cobró una cuota o secuestró)?,Numérico,2
+145,d5_1_2_1,¿Denunció el delito?,Numérico,2
+146,d5_3,"Ante estas situaciones, ¿quién le apoyó o auxilió?",Numérico,2
+147,d6,"En esta misma ocasión, ¿contrató usted a alguna persona (coyote, pollero, patero, guía, lanchero) para que le guiara al cruzar la frontera?",Numérico,2
+148,d6_1,¿Dónde hizo el contacto con la persona que le guio a cruzar la frontera?,Numérico,2
+149,d6_2c,¿Cuánto pagó o quedó de pagar a esa persona por usted? Cantidad,Numérico,7
+150,d6_2u,¿Cuánto pagó o quedó de pagar a esa persona por usted? Unidad,Numérico,2
+151,d6_3,"Cuando le detuvieron, ¿la persona que le guio para cruzar a Estados Unidos:",Numérico,2
+152,d7,"En esta misma ocasión, ¿usó usted algún tipo de documento para cruzar a Estados Unidos?",Numérico,2
+153,d8,"En esta misma ocasión, ¿llevaba usted algún documento para trabajar?",Numérico,2
+154,e1,"En los últimos 12 meses, ¿ha trabajado en México?",Numérico,2
+155,e1_1,¿Por qué no ha trabajado?,Numérico,2
+156,e2,"En los últimos 30 días que estuvo en el lugar donde habitualmente vive en México, ¿trabajó usted en ese lugar o en algún lugar cercano?",Numérico,2
+157,e2_1,No trabajó:,Numérico,2
+158,e2_1_1c,¿Cuánto tiempo buscó trabajo? Cantidad,Numérico,3
+159,e2_1_1t,¿Cuánto tiempo buscó trabajo? Tiempo,Numérico,2
+160,e3_1,¿Cuál es el nombre del oficio o profesión que desempeñó en ese trabajo?,Numérico,3
+161,e4,"De la siguiente lista, ¿qué puesto o posición tenía usted en ese trabajo:",Numérico,2
+162,e5,"Al momento de ser empleado(a), ¿firmó contrato de trabajo con el(la) patrón(a) o empresa?",Numérico,2
+163,e6,"En el trabajo que desempeñó, ¿tenía alguna prestación o beneficio?",Numérico,2
+164,e6_1,¿Cuál?,Numérico,2
+165,e7,¿Cuántas horas diarias en promedio trabajó?,Numérico,2
+166,e8,¿Cuántos días a la semana?,Numérico,2
+167,e9c,¿Cuánto ganaba en ese trabajo? Cantidad,Numérico,7
+168,e9u,¿Cuánto ganaba en ese trabajo? Unidad,Numérico,2
+169,e9t,¿Cuánto ganaba en ese trabajo? Tiempo,Numérico,2
+170,e10,"Aproximadamente, ¿cuántas personas, incluyéndose usted, laboraban en el establecimiento donde trabajó?",Numérico,2
+171,e11,"¿A qué se dedicaba o qué producía el establecimiento, negocio, fábrica o empresa donde trabajó?",Numérico,3
+172,f1,"En los últimos 12 meses antes de ser detenido en Estados Unidos, ¿trabajó usted en ese país?",Numérico,2
+173,f1_1,¿Por qué no ha trabajado?,Numérico,7
+174,f2,"En los últimos 30 días antes de ser detenido(a) en Estados Unidos, ¿trabajó usted?",Numérico,2
+175,f2_1,No trabajó:,Numérico,3
+176,f3,"En esta ocasión, ¿cuántos trabajos tuvo en Estados Unidos?",Numérico,2
+177,f5,¿Cuál es el nombre del oficio o profesión que desempeñó en ese trabajo?,Numérico,3
+178,f6,"De la siguiente lista, ¿qué puesto o posición tenía usted en ese trabajo:",Numérico,2
+179,f7,"Al momento de ser empleado(a), ¿firmó contrato de trabajo con el(la) patrón(a) o empresa?",Numérico,2
+180,f8,"En el trabajo que desempeñó, ¿tenía alguna prestación o beneficio?",Numérico,2
+181,f8_1,¿Cuál?,Numérico,2
+182,f9,¿Cuántas horas diarias en promedio trabajó?,Numérico,2
+183,f10,¿Cuántos días a la semana?,Numérico,2
+184,f11c,¿Cuánto ganaba en ese trabajo? Cantidad,Numérico,7
+185,f11u,¿Cuánto ganaba en ese trabajo? Unidad,Numérico,2
+186,f11t,¿Cuánto ganaba en ese trabajo? Tiempo,Numérico,2
+187,f12,"¿El pago que recibió por su trabajo fue igual, mayor o menor al que recibieron las personas estadounidenses que hicieron el mismo tipo de trabajo?",Numérico,2
+188,f13,¿El empleador le quedó a deber parte de su salario?,Numérico,2
+189,f14,"Aproximadamente, ¿cuántas personas, incluyéndose usted, laboraban en el establecimiento donde trabajó?",Numérico,2
+190,f15,"¿A qué se dedicaba o qué producía el establecimiento, negocio, fábrica o empresa donde trabajó?",Numérico,3
+191,f16,¿En qué país aprendió el oficio al que se dedicó?,Numérico,2
+192,f17,"Durante su última estancia en Estados Unidos, ¿tuvo algún accidente o enfermedad a consecuencia de su trabajo?",Numérico,2
+193,f18,¿Recibió atención médica?,Numérico,2
+194,f19,"En los últimos 12 meses antes de ser detenido, ¿envió dólares a México?",Numérico,2
+195,f19_1c,¿Cada cuánto envío dólares a México? Cantidad,Numérico,3
+196,f19_1t,¿Cada cuánto envío dólares a México? Tiempo,Numérico,2
+197,f19_2,"En cada envío, ¿cuántos dólares mandó? Cantidad",Numérico,6
+198,f19_3,¿Cuántas personas dependen de los envíos que usted realizaba en México?,Numérico,2
+199,g1es,"¿En qué ciudad, condado y estado estuvo la mayor parte del tiempo en Estados Unidos? Estado",Numérico,2
+200,g1cn,"¿En qué ciudad, condado y estado estuvo la mayor parte del tiempo en Estados Unidos? Condado",Numérico,5
+201,g1cd,"¿En qué ciudad, condado y estado estuvo la mayor parte del tiempo en Estados Unidos? Ciudad",Numérico,10
+202,g2es,¿En qué estado y condado fue detenido(a)? Estado,Numérico,2
+203,g2cn,¿En qué estado y condado fue detenido(a)? Condado,Numérico,5
+204,g3,¿A usted le detuvieron cruzando o intentando cruzar la frontera de Estados Unidos?,Numérico,2
+205,g4,¿En qué lugar fue detenido(a)?,Numérico,2
+206,g5,¿Qué autoridad estadounidense le detuvo?,Numérico,2
+207,g6_1,"Durante la persecución y hasta su detención por parte de los oficiales migratorios o policías estadounidenses, ¿fue usted objeto de: burlas, desprecios, insultos o gritos?",Numérico,2
+208,g6_2,"Durante la persecución y hasta su detención por parte de los oficiales migratorios o policías estadounidenses, ¿fue usted objeto de: agresión física (empujones, golpes, etc.)?",Numérico,2
+209,g6_3,"Durante la persecución y hasta su detención por parte de los oficiales migratorios o policías estadounidenses, ¿fue usted objeto de: robo de alguna pertenencia?",Numérico,2
+210,g6_4,"Durante la persecución y hasta su detención por parte de los oficiales migratorios o policías estadounidenses, ¿fue usted objeto de: otro?",Numérico,2
+211,g6_1_1,¿Cree que este trato fue por: su sexo (ser hombre o ser mujer)?,Numérico,2
+212,g6_1_2,¿Cree que este trato fue por: su edad?,Numérico,2
+213,g6_1_3,¿Cree que este trato fue por: su apariencia (la manera en que se ve)?,Numérico,2
+214,g6_1_4,¿Cree que este trato fue por: su tono de piel?,Numérico,2
+215,g6_1_5,¿Cree que este trato fue por: no hablar inglés o hablarlo mal?,Numérico,2
+216,g6_1_6,¿Cree que este trato fue por: ser migrante o extranjero(a)?,Numérico,2
+217,g6_1_7,¿Cree que este trato fue por: ser indígena?,Numérico,2
+218,g7,¿Fue detenido(a) en Estados Unidos por cometer algún delito que le llevó a la cárcel?,Numérico,2
+219,g7_1,¿Por qué le detuvieron en el interior de Estados Unidos?,Numérico,2
+220,g8,¿Al momento de ser detenido(a) usted se encontraba con familiares?,Numérico,2
+221,g8_1,¿Algún familiar fue detenido con usted?,Numérico,2
+222,g8_1_1_1,¿Cuáles de los siguientes familiares fueron detenidos con usted: esposa(o) o pareja?,Numérico,2
+223,g8_1_1_2,¿Cuáles de los siguientes familiares fueron detenidos con usted: hijos(as)?,Numérico,2
+224,g8_1_1_3,¿Cuáles de los siguientes familiares fueron detenidos con usted: padre y/o madre?,Numérico,2
+225,g8_1_1_4,¿Cuáles de los siguientes familiares fueron detenidos con usted: hermanos(as)?,Numérico,2
+226,g8_1_1_5,¿Cuáles de los siguientes familiares fueron detenidos con usted: otros familiares?,Numérico,2
+227,g8_1_2,¿Fue devuelto(a) a México en compañía de alguno de los familiares con los que fue detenido(a)?,Numérico,2
+228,g8_1_2_1_1,¿Cuáles de los siguientes familiares fueron devueltos con usted: esposa(o) o pareja?,Numérico,2
+229,g8_1_2_1_2,¿Cuáles de los siguientes familiares fueron devueltos con usted: hijos(as)?,Numérico,2
+230,g8_1_2_1_3,¿Cuáles de los siguientes familiares fueron devueltos con usted: padre y/o madre?,Numérico,2
+231,g8_1_2_1_4,¿Cuáles de los siguientes familiares fueron devueltos con usted: hermanos(as)?,Numérico,2
+232,g8_1_2_1_5,¿Cuáles de los siguientes familiares fueron devueltos con usted: otros familiares?,Numérico,2
+233,g9_1,¿Usted: recibió una notificación de autoridades migratorias para presentarse ante una Corte de Inmigración?,Numérico,2
+234,g9_2,¿Usted: tuvo un juicio de deportación?,Numérico,2
+235,g9_3,¿Usted: ha firmado salida voluntaria?,Numérico,2
+236,g10,"Debido a esa deportación, ¿recibió un castigo que le limita la entrada a Estados Unidos en los próximos años o de por vida?",Numérico,2
+237,g10_1,¿Por cuánto tiempo?,Numérico,2
+238,g10_1c,¿Por cuánto tiempo? Cantidad,Numérico,3
+239,g10_1t,¿Por cuánto tiempo? Tiempo,Numérico,2
+240,g11c,¿Cuánto tiempo permaneció detenido(a) por las autoridades migratorias? Cantidad,Numérico,3
+241,g11t,¿Cuánto tiempo permaneció detenido(a) por las autoridades migratorias? Tiempo,Numérico,2
+242,g12_1,"Durante su estancia en el centro de detención migratoria, ¿usted se encontró con alguna de las siguientes situaciones: alguna vez se quedó sin comida o agua?",Numérico,2
+243,g12_2,"Durante su estancia en el centro de detención migratoria, ¿usted se encontró con alguna de las siguientes situaciones: se encontraban alojados(as) hombres y mujeres en el mismo espacio?",Numérico,2
+244,g12_3,"Durante su estancia en el centro de detención migratoria, ¿usted se encontró con alguna de las siguientes situaciones: había excusados o retretes disponibles?",Numérico,2
+245,g12_4,"Durante su estancia en el centro de detención migratoria, ¿usted se encontró con alguna de las siguientes situaciones: clima extremo (frío o calor)?",Numérico,2
+246,g12_5,"Durante su estancia en el centro de detención migratoria, ¿usted se encontró con alguna de las siguientes situaciones: servicio médico disponible?",Numérico,2
+247,g12_6,"Durante su estancia en el centro de detención migratoria, ¿usted se encontró con alguna de las siguientes situaciones: compartir la celda con delincuentes peligrosos (homicidas, etc.)?",Numérico,2
+248,g12_7,"Durante su estancia en el centro de detención migratoria, ¿usted se encontró con alguna de las siguientes situaciones: exceso de personas en la celda?",Numérico,2
+249,g12_8,"Durante su estancia en el centro de detención migratoria, ¿usted se encontró con alguna de las siguientes situaciones: trabajó o fue obligado a trabajar?",Numérico,2
+250,h1,¿Fue usted informado(a) por las autoridades de su derecho a establecer comunicación con el Consulado de México?,Numérico,2
+251,h1_1,¿Hizo usted uso de ese derecho?,Numérico,2
+252,h1_1_1,¿Por qué no hizo uso de ese derecho?,Numérico,2
+253,h1_1_2_1,¿Principalmente qué tipo de ayuda recibió del Consulado? OPCI”N 1,Numérico,2
+254,h1_1_2_2,¿Principalmente qué tipo de ayuda recibió del Consulado? OPCI”N 2,Numérico,2
+255,h1_1_3,"En general, ¿cómo califica el servicio prestado por el Consulado?",Numérico,2
+256,i1_1,¿Cuáles de las siguientes ayudas le proporcionaron sus familiares en Estados Unidos en esta estancia o cruce: préstamo monetario?,Numérico,2
+257,i1_2,¿Cuáles de las siguientes ayudas le proporcionaron sus familiares en Estados Unidos en esta estancia o cruce: alojamiento y/o alimentos?,Numérico,2
+258,i1_3,¿Cuáles de las siguientes ayudas le proporcionaron sus familiares en Estados Unidos en esta estancia o cruce: ayuda para conseguir trabajo?,Numérico,2
+259,i1_4,¿Cuáles de las siguientes ayudas le proporcionaron sus familiares en Estados Unidos en esta estancia o cruce: ayuda para cruzar a Estados Unidos?,Numérico,2
+260,i1_5,¿Cuáles de las siguientes ayudas le proporcionaron sus familiares en Estados Unidos en esta estancia o cruce: otra?,Numérico,2
+261,i2,¿Dejó hijos(as) menores de 18 años de edad en Estados Unidos?,Numérico,2
+262,i2_1,¿Alguno(a) de sus hijos(as) menores de 18 años que vive en Estados Unidos nació en ese país?,Numérico,2
+263,i2_1_1,"¿Ese hijo(a) o hijos(as) tiene algún documento como pasaporte, acta de nacimiento u otro, que compruebe su nacionalidad mexicana?",Numérico,2
+264,i2_2,¿Qué piensa hacer con los hijos(as) menores de 18 años que dejó en Estados Unidos?,Numérico,2
+265,i2_3_1,¿A cargo de quién dejó a sus hijos(as): esposa(o) o pareja?,Numérico,2
+266,i2_3_2,¿A cargo de quién dejó a sus hijos(as): padre y/o madre?,Numérico,2
+267,i2_3_3,¿A cargo de quién dejó a sus hijos(as): hermanos(as)?,Numérico,2
+268,i2_3_4,¿A cargo de quién dejó a sus hijos(as): otros familiares?,Numérico,2
+269,i2_3_5,¿A cargo de quién dejó a sus hijos(as): otras personas?,Numérico,2
+270,i2_4,¿La persona que quedó a cargo de sus hijos(as) menores de 18 años tiene el poder legal para ser el tutor(a) de sus hijos(as)?,Numérico,2
+271,j1,"En general, ¿cómo considera usted su estado de salud?",Numérico,2
+272,j2,¿Usted está afiliado(a) a algún seguro o servicio de salud en México?,Numérico,2
+273,j2_1_1,"¿A cuál seguro, programa o institución está afiliado(a)? Seguro Popular",Numérico,2
+274,j2_1_2,"¿A cuál seguro, programa o institución está afiliado(a)? IMSS",Numérico,2
+275,j2_1_3,"¿A cuál seguro, programa o institución está afiliado(a)? ISSSTE",Numérico,2
+276,j2_1_4,"¿A cuál seguro, programa o institución está afiliado(a)? Seguro médico privado en México",Numérico,2
+277,j2_1_5,"¿A cuál seguro, programa o institución está afiliado(a)? Seguro médico en Estados Unidos que lo cubre en México",Numérico,2
+278,j2_1_6,"¿A cuál seguro, programa o institución está afiliado(a)? Otro?",Numérico,2
+279,j3_1,¿Usted tiene cobertura médica en Estados Unidos: a través de su empleador(a)?,Numérico,2
+280,j3_2,¿Usted tiene cobertura médica en Estados Unidos: de compañía de seguros?,Numérico,2
+281,j3_3,"¿Usted tiene cobertura médica en Estados Unidos: de un programa de gobierno? (Medicare, Medicaid, Medical Assistance, TRICARE, etc.)",Numérico,2
+282,j3_4,¿Usted tiene cobertura médica en Estados Unidos: otro tipo de seguro o plan médico?,Numérico,2
+283,j4_1,¿Conoce los siguientes programas de salud que el gobierno mexicano tiene para las personas migrantes: Ventanillas de Salud?,Numérico,2
+284,j4_2,"¿Conoce los siguientes programas de salud que el gobierno mexicano tiene para las personas migrantes: Vete Sano, Regresa Sano?",Numérico,2
+285,j4_3,¿Conoce los siguientes programas de salud que el gobierno mexicano tiene para las personas migrantes: Asistencia a repatriados enfermos?,Numérico,2
+286,k1,"En los últimos 12 meses, ¿usted o alguna persona de su hogar ha recibido algún apoyo o programa social del gobierno mexicano en el lugar donde vive en México?",Numérico,2
+287,k1_1_1,¿Cuál(es) apoyo(s) o programa(s)? Becas para el Bienestar Benito Juárez,Numérico,2
+288,k1_1_2,¿Cuál(es) apoyo(s) o programa(s)? Pensión para el Bienestar de las Personas Adultas Mayores,Numérico,2
+289,k1_1_3,¿Cuál(es) apoyo(s) o programa(s)? Seguro de Vida para Jefas de Familia,Numérico,2
+290,k1_1_4,¿Cuál(es) apoyo(s) o programa(s)? Programa Jóvenes Construyendo el Futuro,Numérico,2
+291,k1_1_5,¿Cuál(es) apoyo(s) o programa(s)? Leche LICONSA,Numérico,2
+292,k1_1_6,¿Cuál(es) apoyo(s) o programa(s)? Producción para el Bienestar,Numérico,2
+293,k1_1_7,¿Cuál(es) apoyo(s) o programa(s)? Pensión para el Bienestar de las Personas con Discapacidad Permanente,Numérico,2
+294,k1_1_8,¿Cuál(es) apoyo(s) o programa(s)? Sembrando Vida,Numérico,2
+295,k1_1_9,"¿Cuál(es) apoyo(s) o programa(s)? Pensión para el Bienestar de Niñas y Niños, hijos de Madres Trabajadoras",Numérico,2
+296,k1_1_10,¿Cuál(es) apoyo(s) o programa(s)? Otros programas sociales,Numérico,2
+297,k2_1,¿En cuáles oficios o profesiones usted considera que tiene más experiencia y habilidades? OPCI”N 1,Numérico,3
+298,k2_2,¿En cuáles oficios o profesiones usted considera que tiene más experiencia y habilidades? OPCI”N 2,Numérico,3
+299,k2_3,¿En cuáles oficios o profesiones usted considera que tiene más experiencia y habilidades? OPCI”N 3,Numérico,3
+300,l1,¿Piensa cruzar de nuevo a Estados Unidos en los próximos 7 días?,Numérico,2
+301,l1_1,¿Tiene planes para cruzar a trabajar o vivir en Estados Unidos durante los próximos tres meses?,Numérico,2
+302,l1_1_1,¿Piensa regresar algún día a Estados Unidos a trabajar o buscar trabajo?,Numérico,2
+303,l1_2,¿Ahora que está en México a dónde se dirige?,Numérico,2
+304,l1_2_1e,"¿A qué estado, municipio y localidad, se dirigirá usted ahora que está en México? Estado",Numérico,2
+305,l1_2_1m,"¿A qué estado, municipio y localidad, se dirigirá usted ahora que está en México? Municipio",Numérico,5
+306,l1_2_1u,"¿A qué estado, municipio y localidad, se dirigirá usted ahora que está en México? Urbano o no urbano",Numérico,2
+307,l1_3,¿Tiene usted familiares en ese lugar?,Numérico,2
+308,l2,"En está ocasión, en el lugar de repatriación, ¿las autoridades mexicanas le ofrecieron transporte gratuito o con descuento para que pueda regresar a su lugar de origen?",Numérico,2
+309,l3,"En el lugar de México que decida permaneces, ¿va usted trabajar o buscar trabajo?",Numérico,2
+310,l3_1,¿En qué actividad piensa usted trabajar?,Numérico,2
+311,oficio_mx,Ocupación u oficio en los últimos 30 días que estuvo en el lugar donde habitualmente vive en México (Residentes en México),Numérico,11
+312,oficio_eua,Ocupación u oficio durante los últimos 30 días que estuvo en EUA (Residentes en EUA),Numérico,12
+313,nivel,Nivel educativo,Numérico,10
+314,filtro,Desplazamientos migratorios,Numérico,10
+315,estrato,Estrato (region-ciudad-punto-turno),Numérico,10
+316,upm,Unidad Primaria de Muestreo (estrato-unidad),Numérico,10
+317,ponfin3,Ponderador de la base,Numérico,10
