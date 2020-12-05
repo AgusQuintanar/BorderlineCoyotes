@@ -1,4 +1,5 @@
 import pandas as pd
+import csv
 
 def get_descriptores():
     descriptores = {}
@@ -39,6 +40,6 @@ def main():
 
     envueltos_decoded_df  = decode(devueltos_df, descriptores, valores)
 
-    envueltos_decoded_df.to_csv(r'../datasets/decoded/devueltos_2020.csv', index=False, header=True, sep='|')
+    envueltos_decoded_df.to_csv(r'../datasets/decoded/devueltos_2020.csv', index=False, header=True, sep=',', quoting=csv.QUOTE_NONNUMERIC)
 
 main()
