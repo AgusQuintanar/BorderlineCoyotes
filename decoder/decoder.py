@@ -27,7 +27,7 @@ def decode(df, descriptores, valores):
             if str(col) in valores and str(row[col]) in valores[str(col)]:
                 df.at[index, col] = valores[str(col)][str(row[col])]
 
-    df.columns = [descriptores[c] for c in cols]
+    df.columns = [descriptores[c] + " [" + c +"]"  for c in cols]
 
     return df
         
