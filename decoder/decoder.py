@@ -3,7 +3,7 @@ import csv
 
 def get_descriptores():
     descriptores = {}
-    descriptores_df = pd.read_csv('../datasets/encoded/DEV_Descriptores_2020.csv', engine="c")
+    descriptores_df = pd.read_csv('../datasets/dictionaries/DEV_Descriptores_2020.csv', engine="c")
 
     for index, row in descriptores_df.iterrows():
         descriptores[str(row['Variable'])] = str(row['Etiqueta'])
@@ -11,7 +11,7 @@ def get_descriptores():
 
 def get_valores():
     valores = {}
-    valores_df = pd.read_csv('../datasets/encoded/DEV_Valores_2020.csv', engine="c")
+    valores_df = pd.read_csv('../datasets/dictionaries/DEV_Valores_2020.csv', engine="c")
 
     for index, row in valores_df.iterrows():
         if row['Variable'] not in valores: valores[row['Variable']] = {}
